@@ -3,7 +3,7 @@
   Generate a README.md file
 
   ## Description of Project: 
-  This application  generate a Good  README.md file for the assignment.
+  This application generates a Good README.md file for assignment.
 
   ## Table of Contents
    

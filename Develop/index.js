@@ -22,7 +22,7 @@ const questions = [
     message: "Provide a description of your project.",
     name: "description",
     default:
-      "This application  generate a Good  README.md file for the assignment.",
+      "This application generates a Good README.md file for assignment.",
   },
 
   {
@@ -58,17 +58,19 @@ const questions = [
 
   {
     type: "input",
+    message: "Please enter email address.",
+    name: "Email",
+    default: "Student email",
+  },
+
+  {
+    type: "input",
     message: "How will tests be run?",
     name: "testing",
     default: "Test samples here.",
   },
 
-  {
-    type: "input",
-    message: "Please enter email address.",
-    name: "Email",
-    default: "Student email",
-  },
+  
 ];
 
 function writeToFile(fileName, data) {
